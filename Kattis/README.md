@@ -2,4 +2,4 @@
 
 ### Website -> [Kattis](https://open.kattis.com/)
 
-### ~ All solutions are written in Python 3
+### ~ All solutions are written in Python 3... ;-;
