@@ -4,4 +4,4 @@
 
 #### The only reason I use code templates is when I hit Time Limit Exceeded (TLE), and I mainly use python (slow). These templates are made for better time performance, not for readability and elegancy.
 
-#### I also used some of PyRival's fast I/O code. Cool GitHub page → https://github.com/cheran-senthil/PyRival
+#### I also used some of PyRival's fast I/O code. Cool GitHub page, check them out → https://github.com/cheran-senthil/PyRival
