@@ -62,20 +62,14 @@ stdin, stdout = IOWrapper(stdin), IOWrapper(stdout)
 ####### End of PyRival's Fast I/O #######
 #                                       #
 
-readlines = stdin.readlines
-readline = stdin.readline
-write = stdout.write
+print = lambda output: stdout.write(str(output) + "\n")
+input = lambda: stdin.readline().rstrip("\r\n")
 
-print = lambda output: write(str(output) + "\n")
-input = lambda: readline().rstrip("\r\n")
-
-m = map
-l = list
-
-# intline = lambda: m(int, input().strip().split())
-# strline = lambda: input().strip().split()
-# strlines = lambda: l(m(lambda s: s.strip(), readlines()))
-# intput = lambda: int(input())
+strlines = lambda: list(map(lambda s: s.strip(), stdin.readlines()))
+intlines = lambda: list(map(int, stdin.readlines()))
+intline = lambda: map(int, input().strip().split())
+strline = lambda: input().strip().split()
+intput = lambda: int(input())
 
 # start = perf_counter()
 
