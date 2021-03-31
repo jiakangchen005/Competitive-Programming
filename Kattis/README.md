@@ -4,4 +4,4 @@
 
 ### ~ All solutions are written in Python 3... ;-;
 
-#### *Note: Some solutions are utterly slow, while some are faster, I have been using Kattis for a long time and a lot has changed since.
+#### *Note: Some solutions to some problems are utterly slow, while some are insanely faster, I have been using Kattis for a long time and a lot has changed since.
