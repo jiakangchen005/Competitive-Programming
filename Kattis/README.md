@@ -2,6 +2,6 @@
 
 ## Website → [Kattis](https://open.kattis.com/)
 
-### ~ All solutions are written in Python 3... ;-;
+### ~ All solutions are written in Python
 
-#### *Note: Some solutions to some problems are utterly slow, while some are insanely faster, I have been using Kattis for a long time and a lot has changed since.
+#### *Note: Solutions are not here for public display, and some might not even work. This is just a repository for my personal reference.
