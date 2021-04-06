@@ -2,6 +2,6 @@
 
 ## Website → [Kattis](https://open.kattis.com/)
 
-### ~ All solutions are written in Python
+### *Note: Solutions are not intended for public display and some might not even work at all. This is just a repository for my personal reference.
 
-### *Note: Solutions are not here for public display, and some might not even work. This is just a repository for my personal reference.
+### ~ All solutions are written in Python
