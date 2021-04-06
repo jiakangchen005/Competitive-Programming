@@ -4,4 +4,4 @@
 
 ### ~ All solutions are written in Python
 
-#### *Note: Solutions are not here for public display, and some might not even work. This is just a repository for my personal reference.
+### *Note: Solutions are not here for public display, and some might not even work. This is just a repository for my personal reference.
