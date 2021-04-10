@@ -2,7 +2,6 @@
 
 from sys import stdin, stdout
 from io import BytesIO, IOBase
-# from time import perf_counter
 # import collections
 # import itertools
 # import math
@@ -68,10 +67,8 @@ input = lambda: stdin.readline().rstrip("\r\n")
 strlines = lambda: list(map(lambda s: s.strip(), stdin.readlines()))
 intlines = lambda: list(map(int, stdin.readlines()))
 intline = lambda: map(int, input().strip().split())
-strline = lambda: input().strip().split()
+strline = lambda: map(str, input().strip().split())
 intput = lambda: int(input())
-
-# start = perf_counter()
 
 ####### End of Template #######
 
