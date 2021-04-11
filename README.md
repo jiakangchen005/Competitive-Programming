@@ -1,3 +1,3 @@
 # Competitive-Programming
 
-#### Competitive Programming (CP) Solutions
+### My Competitive Programming (CP) Solutions
