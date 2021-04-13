@@ -1,3 +1,3 @@
 # C++ Code Templates
 
-### Simple and effective, nothing too extraordinary.
+### Simple, highly minimized, elegant, and effective, but nothing too extraordinary.
