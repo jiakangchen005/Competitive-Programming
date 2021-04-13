@@ -2,13 +2,14 @@
 
 using namespace std;
 
+#define ld long double
+#define ll long long
+
+#define print(x) cout << x << "\n"
 #define cinl getline
 #define pb push_back
 
-typedef long double ld;
-typedef long long ll;
-
-const ll MOD = 1000000007; 
+const ll MOD = 1000000007;
 
 /* Declaration */
 
