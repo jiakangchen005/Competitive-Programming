@@ -1,4 +1,4 @@
-# C++ Code Templates
+# C++ Template
 
 ## Simple, highly minimized, elegant, and effective, but nothing too extraordinary.
 
