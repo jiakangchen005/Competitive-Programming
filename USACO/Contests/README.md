@@ -1,3 +1,3 @@
 # Solutions to Past Contests
 
-### The file name is formatted by {month}_{division}{problem number}
+### The file names are formatted by {month}_{division}{problem number}
