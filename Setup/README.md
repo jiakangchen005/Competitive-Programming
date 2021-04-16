@@ -1,5 +1,7 @@
 # My Custom Setup
 
+### The Color-Scheme came from [Materialize](https://github.com/saadq/Materialize/blob/master/schemes/Material%20Vim%20Blackboard.tmTheme) by [saadq](https://github.com/saadq). Check it out.
+
 #### Step 1-) Install Sublime Text as the text editor of choice
 #### Step 2-) Install the files needed to run Python and C++
 #### Step 3-) Make sure to have everything up and running.
