@@ -10,21 +10,23 @@ using namespace std;
 #define pb push_back
 
 const ll MOD = 1000000007;
+const int maxN = 0;
+
+void eatFile(string x) {
+    freopen((x + ".in").c_str(), "r", stdin); 
+    freopen((x + ".out").c_str(),"w", stdout);
+}
 
 /* Declaration */
-
-
-
 /* Declaration */
 
 void solve() {
-	;
+    ;
 }
 
 int main() {
-	ios::sync_with_stdio(0);
-	cout.tie(0);
-	cin.tie(0);
-
-	// Start
+    ios::sync_with_stdio(0);
+    cout.tie(0);
+    cin.tie(0);
+    // eatFile("name");
 }
