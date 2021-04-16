@@ -9,3 +9,5 @@
 #### Step 5-) Sublime Text Tab > Preferences > Color Scheme > Material Vim Blackboard.tmTheme
 #### Step 6-) Add whatever you want. Preferably useful features and key-bindings.
 #### Step 7-) Done. Enjoy.
+
+### Also, the Default.sublime-keymap file requires specific files to run properly, mainly from my [templates](https://github.com/jiakangchen005/Competitive-Programming/tree/main/templates) folder.
