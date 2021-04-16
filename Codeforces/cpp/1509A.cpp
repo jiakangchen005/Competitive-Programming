@@ -19,24 +19,15 @@ int n;
 /* Declaration */
  
 void solve() {
-    vector<int> a;
-    int even[n];
-    int evens = 0;
+    vector<int> a(n);
  
     for (int x = 0; x < n; x = x + 1) {
-        int temp;
-        cin >> temp;
-        if (temp % 2 == 0) {
-            even[evens] = temp;
-            evens = evens + 1;
-        } else {
-            a.pb(temp);
-        }
+        cin >> a[x];
     }
  
-    for (int x = 0; x < evens; x = x + 1) {
-        a.pb(even[x]);
-    }
+    partition(a.begin(), a.end(), [&](const int x) {
+        return x % 2;
+    });
  
     for (int x = 0; x < a.size(); x = x + 1) {
         cout << a[x] << " ";
@@ -56,5 +47,4 @@ int main() {
         cin >> n;
         solve();
     }
-    return 0;
 }
