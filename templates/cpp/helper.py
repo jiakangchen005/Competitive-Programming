@@ -1,5 +1,5 @@
 import os
 
 temp = "input('Press enter to continue . . . ')"
-final = 'g++ cp.cpp -o cp && ./cp < in.txt' + '' + ' && python -c "' + temp + '"'
+final = 'g++ -std=c++14 main.cpp -o main && ./main < in.txt' + '' + ' && python -c "' + temp + '"'
 os.system(final)
