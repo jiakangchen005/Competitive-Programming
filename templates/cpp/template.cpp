@@ -2,6 +2,7 @@
 
 using namespace std;
 
+// Type Condensation
 #define ld long double
 #define ll long long
 
@@ -9,6 +10,7 @@ using namespace std;
 #define cinl getline
 #define pb push_back
 
+// Constants
 const ll MOD = 1000000007;
 const int maxN = 0;
 
