@@ -6,10 +6,10 @@ time python3 main.py < in.txt # Get execution time
 
 # C++
 g++ -std=c++14 main.cpp -o main # Compile
-main < in.txt # Run
+./main < in.txt # Run
 
 # The epic one-liner for C++
-g++ -std=c++14 main.cpp -o main && main < in.txt
+g++ -std=c++14 main.cpp -o main && ./main < in.txt
 
 # You could also add the...
 time
