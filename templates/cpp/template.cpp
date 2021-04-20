@@ -2,13 +2,15 @@
 
 using namespace std;
 
-// Type Condensation
-#define ld long double
-#define ll long long
-
+#define sall(x) (x).begin(), (x).end()
 #define print(x) cout << x << "\n"
+#define all(x, n) x, x + n
 #define cinl getline
 #define pb push_back
+
+// Type Condensation
+typedef long double ld;
+typedef long long ll;
 
 // Constants
 const ll MOD = 1000000007;
