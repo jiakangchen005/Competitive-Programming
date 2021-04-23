@@ -2,9 +2,7 @@
 
 using namespace std;
 
-#define sall(x) (x).begin(), (x).end()
 #define print(x) cout << x << "\n"
-#define all(x, n) x, x + n
 #define cinl getline
 #define pb push_back
 
