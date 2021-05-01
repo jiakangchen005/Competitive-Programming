@@ -2,6 +2,7 @@
 
 using namespace std;
 
+#define toChar(a, b) strcpy(b, a.c_str())
 #define print(x) cout << x << "\n"
 #define cinl getline
 #define pb push_back
