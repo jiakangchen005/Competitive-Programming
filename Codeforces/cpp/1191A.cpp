@@ -23,24 +23,20 @@ void eatFile(string x) {
 
 int x;
 
-int p[4] = {1, 4, 2, 3};
-char c[4] = {'D', 'A', 'C', 'B'};
-
 /* Declaration */
 
 void solve() {
-    int position = x % 4;
-    int result = 0;
+    int temp = x % 4;
 
-    if (p[position] < p[(x + 1) % 4]) {
-        position = (x + 1) % 4;
-        result = 1;
+    if (temp == 0) {
+        print("1 A");
+    } else if (temp == 1) {
+        print("0 A");
+    } else if (temp == 2) {
+        print("1 B");
+    } else if (temp == 3) {
+        print("2 A");
     }
-    if (p[position] < p[(x + 2) % 4]) {
-        position = (x + 2) % 4;
-        result = 2;
-    }
-    cout << result << " " << c[position] << "\n";
 }
 
 int main() {
