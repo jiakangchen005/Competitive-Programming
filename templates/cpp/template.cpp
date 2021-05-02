@@ -13,7 +13,6 @@ typedef long long ll;
 
 // Constants
 const ll MOD = 1000000007;
-const int maxN = 0;
 
 void eatFile(string x) {
     freopen((x + ".in").c_str(), "r", stdin); 
