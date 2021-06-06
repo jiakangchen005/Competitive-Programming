@@ -4,11 +4,6 @@ using namespace std;
 
 #define toChar(a, b) strcpy(b, a.c_str())
 #define print(x) cout << x << "\n"
-#define pb push_back
-
-// Type Condensation
-typedef long double ld;
-typedef long long ll;
 
 // Constants
 const ll MOD = 1000000007;
