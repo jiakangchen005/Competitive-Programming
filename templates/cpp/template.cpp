@@ -6,7 +6,7 @@ using namespace std;
 #define print(x) cout << x << "\n"
 
 // Constants
-const ll MOD = 1000000007;
+const long long MOD = 1000000007;
 
 void eatFile(string x) {
     freopen((x + ".in").c_str(), "r", stdin); 
