@@ -1,0 +1,138 @@
+// Documentation at https://www.sublimetext.com/docs/color_schemes.html
+{
+	"name": "Vim Light Theme",
+	
+	"globals":
+	{
+		"background": "rgb(255, 255, 255)",
+		"foreground": "#000000",
+		"font_style": "bold",
+		"caret": "#000000",
+		"selection": "#797979",
+		"findHighlight": "#ffe792",
+		"inactive_selection" : "#424242",
+		"gutter_foreground": "#990000",
+		"gutter_font_style": "bold"
+	},
+	
+	"rules":
+	[
+		{
+			"name" : "Comment",
+			"scope" : "comment",
+			"foreground" : "#0000ff",
+
+			"font_style" : "bold italic"
+		},
+
+		{
+			"name" : "Constant",
+			"scope" : "constant",
+			"foreground" : "#ff00ff"
+		},
+
+		{
+			"name"  : "Entity",
+			"scope" : "entity",
+			"foreground" : "#000000"
+		},
+
+		{
+			"name"  : "Keyword",
+			"scope" : "keyword",
+			"foreground" : "#af00ff"
+		},
+
+		{
+			"name"  : "Keyword.operator",
+			"scope" : "keyword.operator",
+			"foreground" : "#000000"
+		},
+
+		{
+			"name"  : "Keyword.control",
+			"scope" : "keyword.control",
+			"foreground" : "#a52a2a"
+		},
+
+		{
+			"name"  : "Keyword.control.import",
+			"scope" : "keyword.control.import",
+			"foreground" : "#a020f0"
+		},
+
+		{
+			"name"  : "Storage",
+			"scope" : "storage",
+			"foreground" : "#2e8b57"
+		},
+
+		{
+			"name"  : "String",
+			"scope" : "string",
+			"foreground" : "#ff00ff"
+		},
+
+		{
+			"name"  : "Support",
+			"scope" : "support",
+			"foreground" : "#000000"
+		},
+
+		{
+			"name"  : "Variable",
+			"scope" : "sariable",
+			"foreground" : "#000000"
+		},
+
+		{
+			"name"  : "Invalid",
+			"scope" : "invalid",
+			"foreground" : "#F8F8F8",
+
+			"background" : "#D8290DBF"
+		},
+
+		{
+			"name"  : "String constant",
+			"scope" : "string constant",
+			"foreground" : "#6a5acd",
+		},
+
+		{
+			"name"  : "String.regexp",
+			"scope" : "string.regexp",
+			"foreground" : "#FFB454",
+		},
+
+		{
+			"name"  : "String variable",
+			"scope" : "string variable",
+			"foreground" : "#EDEF7D",
+		},
+
+		{
+			"name"  : "Support.function",
+			"scope" : "support.function",
+			"foreground" : "#000000",
+		},
+
+		{
+			"name"  : "Support.constant",
+			"scope" : "support.constant",
+			"foreground" : "#EB939A",
+		},
+
+		{
+			"name"  : "Other.preprocessor.c",
+			"scope" : "other.preprocessor.c",
+			"foreground" : "#8996A8",
+		},
+
+		{
+			"name"  : "Other.preprocessor.c entity",
+			"scope" : "other.preprocessor.c entity",
+			"foreground" : "#AFC4DB",
+		},
+	]
+}
