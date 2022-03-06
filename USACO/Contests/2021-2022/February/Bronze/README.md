@@ -1,4 +1,4 @@
-# 2021 February Bronze Notes
+# 2022 February Bronze Notes
 
 ## Problem 1. Sleeping in Class
 
