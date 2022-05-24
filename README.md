@@ -1,3 +1,3 @@
-# Competitive-Programming
+# Competitive Programming
 
 ### My Competitive Programming (CP) Files
