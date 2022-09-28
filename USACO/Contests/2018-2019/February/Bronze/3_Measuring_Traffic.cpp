@@ -16,7 +16,7 @@ void solve(istream& cin, ostream& cout) {
         cin >> segments[i].type >> segments[i].lower >> segments[i].upper;
     }
 
-    int lower = 101 * -1000, upper = 101 * 1000;
+    int lower = INT_MIN, upper = INT_MAX;
 
     for (int i = n; i >= 0; i = i - 1) {
         if (segments[i].type == "on") {
@@ -35,7 +35,7 @@ void solve(istream& cin, ostream& cout) {
 
     cout << lower << " " << upper << "\n";
 
-    lower = 101 * -1000, upper = 101 * 1000;
+    lower = INT_MIN, upper = INT_MAX;
 
     for (int i = 0; i < n; i = i + 1) {
         if (segments[i].type == "on") {
