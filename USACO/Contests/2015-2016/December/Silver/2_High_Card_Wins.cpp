@@ -28,8 +28,8 @@ void solve(istream& cin, ostream& cout) {
 
     int j = -1, points = 0;
 
-    for (int i = 0; i < elsie.size(); i = i + 1) {
-        while (j + 1 < bessie.size()) {  
+    for (int i = 0; i < N; i = i + 1) {
+        while (j + 1 < N) {
             j = j + 1;
 
             if (elsie[i] < bessie[j]) {
