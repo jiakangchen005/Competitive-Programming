@@ -21,10 +21,6 @@ void solve(istream& cin, ostream& cout) {
         int buses = M - 1, space = 0, i = 0, current_time = arrival_times[0];
 
         while (i < N) {
-            if (buses < 0) {
-                break;
-            }
-
             if ((space < C) && (arrival_times[i] - current_time <= wait_time)) {
                 space = space + 1;
 
