@@ -13,7 +13,7 @@ void solve(istream& cin, ostream& cout) {
 
     sort(x, x + N);
 
-    int left = 0, right = 1'000'000'000, minimum_power = right;
+    int left = 0, right = 1e9, minimum_power = right;
 
     while (left <= right) {
         int R = left + (right - left) / 2;

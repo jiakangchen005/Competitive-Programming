@@ -5,14 +5,14 @@ using namespace std;
 int N, T_max;
 
 int time(int d[], int K) {
-    priority_queue<int> stage;
+    priority_queue<int, vector<int>, greater<int>> stage;
 
     for (int i = 1; i <= K; i = i + 1) {
-        stage.push(-1 * d[i]);
+        stage.push(d[i]);
     }
 
     for (int i = K + 1; i <= N; i = i + 1) {
-        stage.push(-1 * d[i] + stage.top());
+        stage.push(d[i] + stage.top());
 
         stage.pop();
     }
@@ -20,7 +20,7 @@ int time(int d[], int K) {
     int T = 0;
 
     while (!stage.empty()) {
-        T = max(T, -1 * stage.top());
+        T = max(T, stage.top());
 
         stage.pop();
     }

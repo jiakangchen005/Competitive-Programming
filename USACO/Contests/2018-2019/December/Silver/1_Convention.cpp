@@ -13,7 +13,7 @@ void solve(istream& cin, ostream& cout) {
 
     sort(arrival_times, arrival_times + N);
 
-    int left = 0, right = 1'000'000'000, minimum_maximum_wait_time = right;
+    int left = 0, right = 1e9, minimum_maximum_wait_time = right;
 
     while (left <= right) {
         int wait_time = left + (right - left) / 2;
